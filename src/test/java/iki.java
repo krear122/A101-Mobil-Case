@@ -94,7 +94,7 @@ public class iki extends bir{
         Thread.sleep(2000);
         System.out.println("Mahalle Sec Adımı");
         MobileElement adresyaz = driver.findElement(By.xpath("//*[@id=\"js-orders-modal-container\"]/div/div[2]/form/div[7]/label/textarea"));
-        adresyaz.sendKeys("istanbul artterrterr seeyhli mah");
+        adresyaz.sendKeys("istanbul artterrterer seeyhli mah");
         Thread.sleep(2000);
         System.out.println("Adres Yaz Adımı");
         MobileElement kaydet = driver.findElement(By.xpath("//*[@id=\"js-orders-modal-container\"]/div/div[2]/form/button[1]"));
